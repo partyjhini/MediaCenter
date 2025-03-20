@@ -1,0 +1,16 @@
+.\objects\gamemain.o: gamemain.c
+.\objects\gamemain.o: LPC17xx.h
+.\objects\gamemain.o: core_cm3.h
+.\objects\gamemain.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gamemain.o: system_LPC17xx.h
+.\objects\gamemain.o: type.h
+.\objects\gamemain.o: C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board\Board_Joystick.h
+.\objects\gamemain.o: C:\Users\ECBME\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board\Board_LED.h
+.\objects\gamemain.o: GLCD.h
+.\objects\gamemain.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gamemain.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gamemain.o: gamemain.h
+.\objects\gamemain.o: Up.c
+.\objects\gamemain.o: Down.c
+.\objects\gamemain.o: Notes.c
+.\objects\gamemain.o: ClearNotes.c

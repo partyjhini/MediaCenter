@@ -1,0 +1,10 @@
+--c99 -c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork --split_sections
+-I.\RTE\Device\LPC1768
+-I.\RTE\_Target_1
+-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+-IC:\Users\ECBME\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC
+-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include
+-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver
+-IC:\Users\ECBME\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board
+-D__UVISION_VERSION="531" -D_RTE_ -DLPC175x_6x -D_RTE_
+-o .\objects\image.o --omf_browse .\objects\image.crf --depend .\objects\image.d "Image.c"
